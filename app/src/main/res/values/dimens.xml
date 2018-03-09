@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonmargintop">8dp</dimen>
+    <dimen name="buttonmarginbottom">8dp</dimen>
+    <dimen name="titlesize">32sp</dimen>
+    <dimen name="titlemargin">8dp</dimen>
+    <dimen name="questionsize">20sp</dimen>
+</resources>

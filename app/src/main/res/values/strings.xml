@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Questioner Udacity Karalius005</string>
+    <string name="begin">Begin</string>
+    <string name="this_quiz_topic_is_internet">This Quiz topic is Internet and PC.</string>
+    <string name="START_AGAIN">Start Again</string>
+
+    <string name="yourname">What\'s your name</string>
+    <string name="writename">Write down your name</string>
+    <string name="name">Your name</string>
+
+    <string name="q1">Question 1</string>
+    <string name="q1question">What\'s the title of the most viewed video on Youtube</string>
+    <string name="q1hint">It was released in 2017</string>
+
+    <string name="q2">Question 2</string>
+    <string name="q2question">In what language is the video</string>
+    <string name="q2hint">It is second in the world by native speakers population</string>
+
+    <string name="q3">Question 3</string>
+    <string name="q3question">Which chanel is most subscribed on Youtube</string>
+    <string name="q3hint">It is a gaming chanel</string>
+
+    <string name="q4">Question 4</string>
+    <string name="q4question">Where is he from?</string>
+    <string name="q4hint">It\'s one of Scandinavia countries</string>
+
+    <string name="q5">Question 5</string>
+    <string name="q5question">When Facebook was founded?</string>
+    <string name="q5hint">It\'s more than 10 years ago</string>
+
+    <string name="q6">Question 6</string>
+    <string name="q6question">Which 2 programming languages is most influential?</string>
+    <string name="s0election">PHP</string>
+    <string name="s1election">JavaScript</string>
+    <string name="s2election">Java</string>
+    <string name="s3election">C</string>
+
+    <string name="q7">Question 7</string>
+    <string name="q7question">Which programming languages is used in android studio?</string>
+    <string name="s0election1">XML</string>
+    <string name="s1election1">Kotlin</string>
+    <string name="s2election1">Java</string>
+    <string name="s3election1">C++</string>
+
+    <string name="q8">Question 8</string>
+    <string name="q8question">How many Internet users are there worldwide?</string>
+    <string name="radio0">1.5 billion</string>
+    <string name="radio1">3.58 billion</string>
+    <string name="radio2">2.2 billion</string>
+    <string name="radio3">800 million</string>
+
+    <string name="Results">Results</string>
+    <string name="correct">Correct answer:</string>
+    <string name="q1correct">Luis Fonsi - Despacito ft. Daddy Yankee</string>
+    <string name="q2correct">Spanish</string>
+    <string name="q3correct">PiewDiePie</string>
+    <string name="q4correct">Sweeden</string>
+    <string name="q5correct">2004</string>
+    <string name="q6correct">Java and C</string>
+    <string name="q7correct">XML, Kotlin, Java and C++</string>
+    <string name="q8correct">3.58 billion </string>
+    <string name="yourans">Your answer</string>
+    <string name="KeyOfQ1">despacito</string>
+    <string name="KeyOfQ2">spanish</string>
+    <string name="KeyOfQ22">espaniol</string>
+    <string name="KeyOfQ3">pewdiepie</string>
+    <string name="KeyOfQ33">pew die pie</string>
+    <string name="KeyOfQ4">sweeden</string>
+    <string name="KeyOfQ44">sweden</string>
+    <string name="KeyOfQ5">2004</string>
+    <string name="cont">Continue</string>
+    <string name="corectansw">Correct answers:</string>
+    <string name="wrongansws">Wrong answers:</string>
+
+    <string name="welcome_to_n_questioner">Welcome to \n Questioner</string>
+</resources>
