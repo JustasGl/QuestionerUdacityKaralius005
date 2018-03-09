@@ -238,7 +238,6 @@ public class MainActivity extends AppCompatActivity {
                         right++;
                     else wrong++;
 
-                    placeholder = "";
                     if (radioGroup.getCheckedRadioButtonId() == R.id.radio1) {
                         right++;
                     } else if (radioGroup.getCheckedRadioButtonId() == R.id.radio0) {
@@ -283,7 +282,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putStringArrayList("ansarray", answers);
         outState.putBoolean("checked",haschecked);
     }
-
     @Override
     protected void onRestoreInstanceState(Bundle savedInstanceState) {
         super.onRestoreInstanceState(savedInstanceState);

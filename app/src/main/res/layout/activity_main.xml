@@ -15,10 +15,9 @@
         android:id="@+id/title"
         android:layout_margin="@dimen/titlemargin"
         android:textAlignment="center"/>
-
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="@dimen/imageHeight"
         android:id="@+id/image"
         android:scaleType="centerCrop"
         android:src="@drawable/title"/>
@@ -52,34 +51,23 @@
         </LinearLayout>
     </LinearLayout>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/checkbox"
         android:textAlignment="center"
         android:layout_marginTop="@dimen/buttonmargintop"
         android:text="@string/this_quiz_topic_is_internet"
         android:id="@+id/question"
         android:textSize="@dimen/questionsize"/>
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+       style="@style/checkbox"
         android:visibility="gone"
         android:id="@+id/anslayout">
     <TextView
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:textSize="@dimen/questionsize"
-        android:id="@+id/aditional"
-        android:layout_marginBottom="@dimen/buttonmarginbottom"
-        android:textAlignment="center"/>
+       style="@style/rightnwrongtext"
+        android:id="@+id/aditional" />
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textSize="@dimen/questionsize"
+            style="@style/rightnwrongtext"
             android:id="@+id/aditiona2"
-            android:layout_marginBottom="@dimen/buttonmarginbottom"
-            android:textAlignment="center"/>
+            />
     </LinearLayout>
     <LinearLayout
         style="@style/TextViewWrap"

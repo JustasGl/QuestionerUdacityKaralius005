@@ -5,4 +5,6 @@
     <dimen name="titlesize">32sp</dimen>
     <dimen name="titlemargin">8dp</dimen>
     <dimen name="questionsize">20sp</dimen>
+    <dimen name="imageHeight">400dp</dimen>
+    <dimen name="widthofweigted">0dp</dimen>
 </resources>

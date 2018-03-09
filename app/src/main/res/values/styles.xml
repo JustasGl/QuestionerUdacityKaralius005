@@ -22,4 +22,12 @@
     <style name="TextViewWrap" parent="wrapnwrap">
         <item name="android:paddingBottom">4dp</item>
     </style>
+    <style name="rightnwrongtext">
+        <item name="android:layout_width">@dimen/widthofweigted</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name=" android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/questionsize</item>
+        <item name="android:layout_marginBottom">@dimen/buttonmarginbottom</item>
+        <item name="android:textAlignment">center</item>
+    </style>
 </resources>
