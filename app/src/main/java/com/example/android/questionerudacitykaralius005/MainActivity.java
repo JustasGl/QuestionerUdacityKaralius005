@@ -14,6 +14,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -230,7 +231,7 @@ public class MainActivity extends AppCompatActivity {
                 question.setText(ans);
 
                 if(!haschecked) {
-                    if (boolanswers[3] && boolanswers[2])
+                    if (boolanswers[3] && boolanswers[2]&& !boolanswers[1]&& !boolanswers[0])
                         right++;
                     else wrong++;
 
@@ -262,7 +263,8 @@ public class MainActivity extends AppCompatActivity {
                     if (answers.get(5).toLowerCase().contains(getString(R.string.KeyOfQ5)))
                         right++;
                     else wrong++;
-
+                    Toast.makeText(getApplicationContext(), "Right answers: " + right, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Wrong answers: " + wrong, Toast.LENGTH_SHORT).show();
                     haschecked=true;
                 }
                     aditional.setText(getString(R.string.corectansw) + "\n" + right);

@@ -1,105 +1,131 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/matchnmatch">
-<LinearLayout
-    style="@style/matchnmatch"
-    tools:context="com.example.android.questionerudacitykaralius005.MainActivity"
-    android:orientation="vertical">
-    <TextView
-        style="@style/checkbox"
-        android:text="@string/welcome_to_n_questioner"
-        android:textSize="@dimen/titlesize"
-        android:id="@+id/title"
-        android:layout_margin="@dimen/titlemargin"
-        android:textAlignment="center"/>
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/imageHeight"
-        android:id="@+id/image"
-        android:scaleType="centerCrop"
-        android:src="@drawable/title"/>
+
     <LinearLayout
-        style="@style/wrapnwrap"
-        android:layout_gravity="center"
-        android:visibility="gone"
-        android:id="@+id/checkboxes">
-    <LinearLayout
-        style="@style/wrapnwrap"
+        style="@style/matchnmatch"
         android:orientation="vertical"
-        android:layout_gravity="center">
-    <CheckBox
-        style="@style/checkbox"
-        android:id="@+id/ch0"
-        />
-        <CheckBox
-            style="@style/checkbox"
-        android:id="@+id/ch1" />
-    </LinearLayout>
-        <LinearLayout
-            style="@style/wrapnwrap"
-            android:orientation="vertical"
-            android:layout_gravity="center">
-            <CheckBox
-                style="@style/checkbox"
-                android:id="@+id/ch2"/>
-            <CheckBox
-                style="@style/checkbox"
-                android:id="@+id/ch3" />
-        </LinearLayout>
-    </LinearLayout>
-    <TextView
-        style="@style/checkbox"
-        android:textAlignment="center"
-        android:layout_marginTop="@dimen/buttonmargintop"
-        android:text="@string/this_quiz_topic_is_internet"
-        android:id="@+id/question"
-        android:textSize="@dimen/questionsize"/>
-    <LinearLayout
-       style="@style/checkbox"
-        android:visibility="gone"
-        android:id="@+id/anslayout">
-    <TextView
-       style="@style/rightnwrongtext"
-        android:id="@+id/aditional" />
+        tools:context="com.example.android.questionerudacitykaralius005.MainActivity">
+
         <TextView
-            style="@style/rightnwrongtext"
-            android:id="@+id/aditiona2"
-            />
-    </LinearLayout>
-    <LinearLayout
-        style="@style/TextViewWrap"
-        android:layout_gravity="center"
-        android:id="@+id/radiogroupLayout">
-        <com.devprovider.customview.ToggleButtonGroupTableLayout
+            android:id="@+id/title"
+            style="@style/checkbox"
+            android:layout_margin="@dimen/titlemargin"
+            android:text="@string/welcome_to_n_questioner"
+            android:textAlignment="center"
+            android:textSize="@dimen/titlesize" />
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/imageHeight"
+            android:scaleType="centerCrop"
+            android:src="@drawable/title" />
+
+        <LinearLayout
+            android:id="@+id/checkboxes"
+            style="@style/wrapnwrap"
+            android:layout_gravity="center"
+            android:visibility="gone">
+
+            <LinearLayout
+                style="@style/wrapnwrap"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/ch0"
+                    style="@style/checkbox" />
+
+                <CheckBox
+                    android:id="@+id/ch1"
+                    style="@style/checkbox" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/wrapnwrap"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/ch2"
+                    style="@style/checkbox" />
+
+                <CheckBox
+                    android:id="@+id/ch3"
+                    style="@style/checkbox" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/question"
+            style="@style/checkbox"
+            android:layout_marginTop="@dimen/buttonmargintop"
+            android:text="@string/this_quiz_topic_is_internet"
+            android:textAlignment="center"
+            android:textSize="@dimen/questionsize" />
+
+        <LinearLayout
+            android:id="@+id/anslayout"
+            style="@style/checkbox"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/aditional"
+                style="@style/rightnwrongtext" />
+
+            <TextView
+                android:id="@+id/aditiona2"
+                style="@style/rightnwrongtext" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/radiogroupLayout"
             style="@style/TextViewWrap"
-            android:visibility="gone"
-            android:id="@+id/radiogoup"
             android:layout_gravity="center">
-            <TableRow>
-                <RadioButton android:id="@+id/radio0"
-                    style="@style/TextViewWrap" />
-                <RadioButton android:id="@+id/radio1"
-                    style="@style/TextViewWrap" />
-            </TableRow>
-            <TableRow>
-                <RadioButton android:id="@+id/radio2"
-                    style="@style/TextViewWrap"/>
-                <RadioButton android:id="@+id/radio3"
-                    style="@style/TextViewWrap" />
-            </TableRow>
-        </com.devprovider.customview.ToggleButtonGroupTableLayout></LinearLayout>
-    <Button
-        style="@style/checkbox"
-        android:layout_marginTop="@dimen/buttonmargintop"
-        android:layout_marginBottom="@dimen/buttonmarginbottom"
-        android:id="@+id/mainbtn"
-        android:text="@string/begin"/>
-    <EditText
-        android:visibility="gone"
-        style="@style/checkbox"
-        android:id="@+id/edittext"/>
-</LinearLayout>
+
+            <com.devprovider.customview.ToggleButtonGroupTableLayout
+                android:id="@+id/radiogoup"
+                style="@style/TextViewWrap"
+                android:layout_gravity="center"
+                android:visibility="gone">
+
+                <TableRow>
+
+                    <RadioButton
+                        android:id="@+id/radio0"
+                        style="@style/TextViewWrap" />
+
+                    <RadioButton
+                        android:id="@+id/radio1"
+                        style="@style/TextViewWrap" />
+                </TableRow>
+
+                <TableRow>
+
+                    <RadioButton
+                        android:id="@+id/radio2"
+                        style="@style/TextViewWrap" />
+
+                    <RadioButton
+                        android:id="@+id/radio3"
+                        style="@style/TextViewWrap" />
+                </TableRow>
+            </com.devprovider.customview.ToggleButtonGroupTableLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/mainbtn"
+            style="@style/checkbox"
+            android:layout_marginBottom="@dimen/buttonmarginbottom"
+            android:layout_marginTop="@dimen/buttonmargintop"
+            android:text="@string/begin" />
+
+        <EditText
+            android:id="@+id/edittext"
+            style="@style/checkbox"
+            android:visibility="gone" />
+    </LinearLayout>
 </ScrollView>
